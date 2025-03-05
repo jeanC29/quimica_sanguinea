@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Para que no se oculte la parte superior */
+    min-height: 100vh; 
+    background-image: url('imagen4.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Contenedor principal */
+.contenedor {
+    background-color: rgba(0, 0, 0, 0.808); /* Fondo oscuro semi-transparente */
+    color: rgb(202, 18, 18); /* Texto en color blanco */
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto; /* Centrar el cuadro */
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro translúcido */
+    color: white;
+    font-size: 1.5em;
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    color: #f00707;
+}
+
+/* Estilos para inputs */
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Botón */
+button {
+    padding: 12px 20px;
+    background: #8F141B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #5c5252;
+}
+
+/* Resultados */
+p {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #444;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 600px) {
+    .contenido {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    header {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    input, button {
+        font-size: 0.9em;
+    }
+}
+

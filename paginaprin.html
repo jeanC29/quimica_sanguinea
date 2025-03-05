@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interpretación de Química Sanguínea</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Interpretación de Química Sanguínea</h1>
+    </header>
+    <main>
+        <a href="https://www.cigna.com/es-us/knowledge-center/hw/pruebas-mdicas/glucosa-en-la-sangre-hw8252" target="_blank">
+        <h2>Examen de Glucemia</h2>
+    </a>
+        <label for="glucosa">Glucemia en ayunas (mg/dL):</label>
+        <input type="number" id="glucosa" placeholder="Ingrese el valor">
+        <p id="resultadoGlucosa"></p>
+        
+        
+        <a href="https://www.labtestsonline.es/tests/colesterol" target="_blank">
+            <h2>Examen de COlesterol Total</h2>
+        </a>
+        <label for="Colesterol">Colesterol (mg/dL):</label>
+        <input type="number" id="Colesterol" placeholder="Ingrese el valor">
+        <p id="resultadoColesterol"></p>
+
+        <a href="https://www.labtestsonline.es/tests/colesterol-hdl" target="_blank">
+            <h2>Examen de Colesterol HDL</h2>
+        </a>
+        <label for="HDL">Colesterol HDL (mg/dL):</label>
+        <input type="number" id="HDL" placeholder="Ingrese el valor">
+        <p id="resultadoHDL"></p>
+
+        <a href="https://www.labtestsonline.es/tests/colesterol-ldl" target="_blank">
+            <h2>Examen de Colesterol LDL</h2>
+        </a>
+        <label for="LDL">Colesterol LDL(mg/dL):</label>
+        <input type="number" id="LDL" placeholder="Ingrese el valor">
+        <p id="resultadoLDL"></p>
+
+        <a href="https://www.labtestsonline.es/tests/colesterol-vldl" target="_blank">
+            <h2>Examen de Colesterol VLDL</h2>
+        </a>
+        <label for="VLDL">Colesterol VLDL (mg/dL):</label>
+        <input type="number" id="VLDL" placeholder="Ingrese el valor">
+        <p id="resultadoVLDL"></p>
+        
+        <a href="https://www.labtestsonline.es/tests/trigliceridos" target="_blank">
+            <h2>Examen de Triglicéridos</h2>
+        </a>
+        <label for="trigliceridos">Triglicéridos (mg/dL):</label>
+        <input type="number" id="trigliceridos" placeholder="Ingrese el valor">
+        <p id="resultadoTrigliceridos"></p>
+        <button onclick="interpretarExamen()">Interpretar</button>
+        
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
